@@ -587,7 +587,7 @@
 
 										<div class="block2-txt flex-w flex-t p-t-14">
 											<div class="block2-txt-child1 flex-col-l ">
-												<a href="product-detail.php" class="stext-104 cl4 hov-cl1 trans-04 js-name-b2 p-b-6">
+												<a href="product_detail" class="stext-104 cl4 hov-cl1 trans-04 js-name-b2 p-b-6">
 													Esprit Ruffle Shirt
 												</a>
 
@@ -619,7 +619,7 @@
 
 										<div class="block2-txt flex-w flex-t p-t-14">
 											<div class="block2-txt-child1 flex-col-l ">
-												<a href="product-detail.php" class="stext-104 cl4 hov-cl1 trans-04 js-name-b2 p-b-6">
+												<a href="product_detail" class="stext-104 cl4 hov-cl1 trans-04 js-name-b2 p-b-6">
 													Herschel supply
 												</a>
 
@@ -651,7 +651,7 @@
 
 										<div class="block2-txt flex-w flex-t p-t-14">
 											<div class="block2-txt-child1 flex-col-l ">
-												<a href="product-detail.php" class="stext-104 cl4 hov-cl1 trans-04 js-name-b2 p-b-6">
+												<a href="product_detail" class="stext-104 cl4 hov-cl1 trans-04 js-name-b2 p-b-6">
 													Only Check Trouser
 												</a>
 
@@ -683,7 +683,7 @@
 
 										<div class="block2-txt flex-w flex-t p-t-14">
 											<div class="block2-txt-child1 flex-col-l ">
-												<a href="product-detail.php" class="stext-104 cl4 hov-cl1 trans-04 js-name-b2 p-b-6">
+												<a href="product_detail" class="stext-104 cl4 hov-cl1 trans-04 js-name-b2 p-b-6">
 													Classic Trench Coat
 												</a>
 
@@ -715,7 +715,7 @@
 
 										<div class="block2-txt flex-w flex-t p-t-14">
 											<div class="block2-txt-child1 flex-col-l ">
-												<a href="product-detail.php" class="stext-104 cl4 hov-cl1 trans-04 js-name-b2 p-b-6">
+												<a href="product_detail" class="stext-104 cl4 hov-cl1 trans-04 js-name-b2 p-b-6">
 													Front Pocket Jumper
 												</a>
 
@@ -747,7 +747,7 @@
 
 										<div class="block2-txt flex-w flex-t p-t-14">
 											<div class="block2-txt-child1 flex-col-l ">
-												<a href="product-detail.php" class="stext-104 cl4 hov-cl1 trans-04 js-name-b2 p-b-6">
+												<a href="product_detail" class="stext-104 cl4 hov-cl1 trans-04 js-name-b2 p-b-6">
 													Vintage Inspired Classic
 												</a>
 
@@ -779,7 +779,7 @@
 
 										<div class="block2-txt flex-w flex-t p-t-14">
 											<div class="block2-txt-child1 flex-col-l ">
-												<a href="product-detail.php" class="stext-104 cl4 hov-cl1 trans-04 js-name-b2 p-b-6">
+												<a href="product_detail" class="stext-104 cl4 hov-cl1 trans-04 js-name-b2 p-b-6">
 													Shirt in Stretch Cotton
 												</a>
 
@@ -811,7 +811,7 @@
 
 										<div class="block2-txt flex-w flex-t p-t-14">
 											<div class="block2-txt-child1 flex-col-l ">
-												<a href="product-detail.php" class="stext-104 cl4 hov-cl1 trans-04 js-name-b2 p-b-6">
+												<a href="product_detail" class="stext-104 cl4 hov-cl1 trans-04 js-name-b2 p-b-6">
 													Pieces Metallic Printed
 												</a>
 
@@ -851,7 +851,7 @@
 
 										<div class="block2-txt flex-w flex-t p-t-14">
 											<div class="block2-txt-child1 flex-col-l ">
-												<a href="product-detail.php" class="stext-104 cl4 hov-cl1 trans-04 js-name-b2 p-b-6">
+												<a href="product_detail" class="stext-104 cl4 hov-cl1 trans-04 js-name-b2 p-b-6">
 													Converse All Star Hi Plimsolls
 												</a>
 
@@ -883,7 +883,7 @@
 
 										<div class="block2-txt flex-w flex-t p-t-14">
 											<div class="block2-txt-child1 flex-col-l ">
-												<a href="product-detail.php" class="stext-104 cl4 hov-cl1 trans-04 js-name-b2 p-b-6">
+												<a href="product_detail" class="stext-104 cl4 hov-cl1 trans-04 js-name-b2 p-b-6">
 													Femme T-Shirt In Stripe
 												</a>
 
@@ -915,7 +915,7 @@
 
 										<div class="block2-txt flex-w flex-t p-t-14">
 											<div class="block2-txt-child1 flex-col-l ">
-												<a href="product-detail.php" class="stext-104 cl4 hov-cl1 trans-04 js-name-b2 p-b-6">
+												<a href="product_detail" class="stext-104 cl4 hov-cl1 trans-04 js-name-b2 p-b-6">
 													Herschel supply
 												</a>
 
@@ -947,7 +947,7 @@
 
 										<div class="block2-txt flex-w flex-t p-t-14">
 											<div class="block2-txt-child1 flex-col-l ">
-												<a href="product-detail.php" class="stext-104 cl4 hov-cl1 trans-04 js-name-b2 p-b-6">
+												<a href="product_detail" class="stext-104 cl4 hov-cl1 trans-04 js-name-b2 p-b-6">
 													Herschel supply
 												</a>
 
@@ -979,7 +979,7 @@
 
 										<div class="block2-txt flex-w flex-t p-t-14">
 											<div class="block2-txt-child1 flex-col-l ">
-												<a href="product-detail.php" class="stext-104 cl4 hov-cl1 trans-04 js-name-b2 p-b-6">
+												<a href="product_detail" class="stext-104 cl4 hov-cl1 trans-04 js-name-b2 p-b-6">
 													T-Shirt with Sleeve
 												</a>
 
@@ -1011,7 +1011,7 @@
 
 										<div class="block2-txt flex-w flex-t p-t-14">
 											<div class="block2-txt-child1 flex-col-l ">
-												<a href="product-detail.php" class="stext-104 cl4 hov-cl1 trans-04 js-name-b2 p-b-6">
+												<a href="product_detail" class="stext-104 cl4 hov-cl1 trans-04 js-name-b2 p-b-6">
 													Pretty Little Thing
 												</a>
 
@@ -1043,7 +1043,7 @@
 
 										<div class="block2-txt flex-w flex-t p-t-14">
 											<div class="block2-txt-child1 flex-col-l ">
-												<a href="product-detail.php" class="stext-104 cl4 hov-cl1 trans-04 js-name-b2 p-b-6">
+												<a href="product_detail" class="stext-104 cl4 hov-cl1 trans-04 js-name-b2 p-b-6">
 													Mini Silver Mesh Watch
 												</a>
 
@@ -1075,7 +1075,7 @@
 
 										<div class="block2-txt flex-w flex-t p-t-14">
 											<div class="block2-txt-child1 flex-col-l ">
-												<a href="product-detail.php" class="stext-104 cl4 hov-cl1 trans-04 js-name-b2 p-b-6">
+												<a href="product_detail" class="stext-104 cl4 hov-cl1 trans-04 js-name-b2 p-b-6">
 													Square Neck Back
 												</a>
 
@@ -1115,7 +1115,7 @@
 
 										<div class="block2-txt flex-w flex-t p-t-14">
 											<div class="block2-txt-child1 flex-col-l ">
-												<a href="product-detail.php" class="stext-104 cl4 hov-cl1 trans-04 js-name-b2 p-b-6">
+												<a href="product_detail" class="stext-104 cl4 hov-cl1 trans-04 js-name-b2 p-b-6">
 													Herschel supply
 												</a>
 
@@ -1147,7 +1147,7 @@
 
 										<div class="block2-txt flex-w flex-t p-t-14">
 											<div class="block2-txt-child1 flex-col-l ">
-												<a href="product-detail.php" class="stext-104 cl4 hov-cl1 trans-04 js-name-b2 p-b-6">
+												<a href="product_detail" class="stext-104 cl4 hov-cl1 trans-04 js-name-b2 p-b-6">
 													Classic Trench Coat
 												</a>
 
@@ -1179,7 +1179,7 @@
 
 										<div class="block2-txt flex-w flex-t p-t-14">
 											<div class="block2-txt-child1 flex-col-l ">
-												<a href="product-detail.php" class="stext-104 cl4 hov-cl1 trans-04 js-name-b2 p-b-6">
+												<a href="product_detail" class="stext-104 cl4 hov-cl1 trans-04 js-name-b2 p-b-6">
 													Vintage Inspired Classic
 												</a>
 
@@ -1211,7 +1211,7 @@
 
 										<div class="block2-txt flex-w flex-t p-t-14">
 											<div class="block2-txt-child1 flex-col-l ">
-												<a href="product-detail.php" class="stext-104 cl4 hov-cl1 trans-04 js-name-b2 p-b-6">
+												<a href="product_detail" class="stext-104 cl4 hov-cl1 trans-04 js-name-b2 p-b-6">
 													Converse All Star Hi Plimsolls
 												</a>
 
@@ -1243,7 +1243,7 @@
 
 										<div class="block2-txt flex-w flex-t p-t-14">
 											<div class="block2-txt-child1 flex-col-l ">
-												<a href="product-detail.php" class="stext-104 cl4 hov-cl1 trans-04 js-name-b2 p-b-6">
+												<a href="product_detail" class="stext-104 cl4 hov-cl1 trans-04 js-name-b2 p-b-6">
 													Herschel supply
 												</a>
 
@@ -1275,7 +1275,7 @@
 
 										<div class="block2-txt flex-w flex-t p-t-14">
 											<div class="block2-txt-child1 flex-col-l ">
-												<a href="product-detail.php" class="stext-104 cl4 hov-cl1 trans-04 js-name-b2 p-b-6">
+												<a href="product_detail" class="stext-104 cl4 hov-cl1 trans-04 js-name-b2 p-b-6">
 													T-Shirt with Sleeve
 												</a>
 
@@ -1307,7 +1307,7 @@
 
 										<div class="block2-txt flex-w flex-t p-t-14">
 											<div class="block2-txt-child1 flex-col-l ">
-												<a href="product-detail.php" class="stext-104 cl4 hov-cl1 trans-04 js-name-b2 p-b-6">
+												<a href="product_detail" class="stext-104 cl4 hov-cl1 trans-04 js-name-b2 p-b-6">
 													Mini Silver Mesh Watch
 												</a>
 
@@ -1347,7 +1347,7 @@
 
 										<div class="block2-txt flex-w flex-t p-t-14">
 											<div class="block2-txt-child1 flex-col-l ">
-												<a href="product-detail.php" class="stext-104 cl4 hov-cl1 trans-04 js-name-b2 p-b-6">
+												<a href="product_detail" class="stext-104 cl4 hov-cl1 trans-04 js-name-b2 p-b-6">
 													Only Check Trouser
 												</a>
 
@@ -1379,7 +1379,7 @@
 
 										<div class="block2-txt flex-w flex-t p-t-14">
 											<div class="block2-txt-child1 flex-col-l ">
-												<a href="product-detail.php" class="stext-104 cl4 hov-cl1 trans-04 js-name-b2 p-b-6">
+												<a href="product_detail" class="stext-104 cl4 hov-cl1 trans-04 js-name-b2 p-b-6">
 													Vintage Inspired Classic
 												</a>
 
@@ -1411,7 +1411,7 @@
 
 										<div class="block2-txt flex-w flex-t p-t-14">
 											<div class="block2-txt-child1 flex-col-l ">
-												<a href="product-detail.php" class="stext-104 cl4 hov-cl1 trans-04 js-name-b2 p-b-6">
+												<a href="product_detail" class="stext-104 cl4 hov-cl1 trans-04 js-name-b2 p-b-6">
 													Shirt in Stretch Cotton
 												</a>
 
@@ -1443,7 +1443,7 @@
 
 										<div class="block2-txt flex-w flex-t p-t-14">
 											<div class="block2-txt-child1 flex-col-l ">
-												<a href="product-detail.php" class="stext-104 cl4 hov-cl1 trans-04 js-name-b2 p-b-6">
+												<a href="product_detail" class="stext-104 cl4 hov-cl1 trans-04 js-name-b2 p-b-6">
 													Pieces Metallic Printed
 												</a>
 
@@ -1475,7 +1475,7 @@
 
 										<div class="block2-txt flex-w flex-t p-t-14">
 											<div class="block2-txt-child1 flex-col-l ">
-												<a href="product-detail.php" class="stext-104 cl4 hov-cl1 trans-04 js-name-b2 p-b-6">
+												<a href="product_detail" class="stext-104 cl4 hov-cl1 trans-04 js-name-b2 p-b-6">
 													Converse All Star Hi Plimsolls
 												</a>
 
@@ -1507,7 +1507,7 @@
 
 										<div class="block2-txt flex-w flex-t p-t-14">
 											<div class="block2-txt-child1 flex-col-l ">
-												<a href="product-detail.php" class="stext-104 cl4 hov-cl1 trans-04 js-name-b2 p-b-6">
+												<a href="product_detail" class="stext-104 cl4 hov-cl1 trans-04 js-name-b2 p-b-6">
 													Femme T-Shirt In Stripe
 												</a>
 
@@ -1539,7 +1539,7 @@
 
 										<div class="block2-txt flex-w flex-t p-t-14">
 											<div class="block2-txt-child1 flex-col-l ">
-												<a href="product-detail.php" class="stext-104 cl4 hov-cl1 trans-04 js-name-b2 p-b-6">
+												<a href="product_detail" class="stext-104 cl4 hov-cl1 trans-04 js-name-b2 p-b-6">
 													Herschel supply
 												</a>
 
@@ -1571,7 +1571,7 @@
 
 										<div class="block2-txt flex-w flex-t p-t-14">
 											<div class="block2-txt-child1 flex-col-l ">
-												<a href="product-detail.php" class="stext-104 cl4 hov-cl1 trans-04 js-name-b2 p-b-6">
+												<a href="product_detail" class="stext-104 cl4 hov-cl1 trans-04 js-name-b2 p-b-6">
 													Herschel supply
 												</a>
 
@@ -1603,7 +1603,7 @@
 
 										<div class="block2-txt flex-w flex-t p-t-14">
 											<div class="block2-txt-child1 flex-col-l ">
-												<a href="product-detail.php" class="stext-104 cl4 hov-cl1 trans-04 js-name-b2 p-b-6">
+												<a href="product_detail" class="stext-104 cl4 hov-cl1 trans-04 js-name-b2 p-b-6">
 													T-Shirt with Sleeve
 												</a>
 
@@ -1635,7 +1635,7 @@
 
 										<div class="block2-txt flex-w flex-t p-t-14">
 											<div class="block2-txt-child1 flex-col-l ">
-												<a href="product-detail.php" class="stext-104 cl4 hov-cl1 trans-04 js-name-b2 p-b-6">
+												<a href="product_detail" class="stext-104 cl4 hov-cl1 trans-04 js-name-b2 p-b-6">
 													Square Neck Back
 												</a>
 
@@ -1675,7 +1675,7 @@
 				<div class="col-sm-6 col-md-4 p-b-40">
 					<div class="blog-item">
 						<div class="hov-img0">
-							<a href="blog-detail.php">
+							<a href="blog_detail">
 								<img src="/assets/images/blog-01.jpg" alt="IMG-BLOG">
 							</a>
 						</div>
@@ -1704,7 +1704,7 @@
 							</div>
 
 							<h4 class="p-b-12">
-								<a href="blog-detail.php" class="mtext-101 cl2 hov-cl1 trans-04">
+								<a href="blog_detail" class="mtext-101 cl2 hov-cl1 trans-04">
 									8 Inspiring Ways to Wear Dresses in the Winter
 								</a>
 							</h4>
@@ -1719,7 +1719,7 @@
 				<div class="col-sm-6 col-md-4 p-b-40">
 					<div class="blog-item">
 						<div class="hov-img0">
-							<a href="blog-detail.php">
+							<a href="blog_detail">
 								<img src="/assets/images/blog-02.jpg" alt="IMG-BLOG">
 							</a>
 						</div>
@@ -1748,7 +1748,7 @@
 							</div>
 
 							<h4 class="p-b-12">
-								<a href="blog-detail.php" class="mtext-101 cl2 hov-cl1 trans-04">
+								<a href="blog_detail" class="mtext-101 cl2 hov-cl1 trans-04">
 									The Great Big List of Men’s Gifts for the Holidays
 								</a>
 							</h4>
@@ -1763,7 +1763,7 @@
 				<div class="col-sm-6 col-md-4 p-b-40">
 					<div class="blog-item">
 						<div class="hov-img0">
-							<a href="blog-detail.php">
+							<a href="blog_detail">
 								<img src="/assets/images/blog-03.jpg" alt="IMG-BLOG">
 							</a>
 						</div>
@@ -1792,7 +1792,7 @@
 							</div>
 
 							<h4 class="p-b-12">
-								<a href="blog-detail.php" class="mtext-101 cl2 hov-cl1 trans-04">
+								<a href="blog_detail" class="mtext-101 cl2 hov-cl1 trans-04">
 									5 Winter-to-Spring Fashion Trends to Try Now
 								</a>
 							</h4>
