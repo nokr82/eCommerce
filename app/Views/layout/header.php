@@ -31,39 +31,62 @@
         <nav class="limiter-menu-desktop container">
 
             <!-- Logo desktop -->
-            <a href="#" class="logo">
+            <a href="index" class="logo">
                 <img src="/assets/images/icons/logo-01.png" alt="IMG-LOGO">
             </a>
 
             <!-- Menu desktop -->
             <div class="menu-desktop">
                 <ul class="main-menu">
-                    <li class="active-menu">
+                    <li
+                        <?php if (basename($_SERVER["PHP_SELF"]) == "index") {
+                            echo 'class="active-menu"';
+                        } ?>
+                    >
                         <a href="index">Home</a>
-                        <ul class="sub-menu">
-                            <li><a href="index">Homepage 1</a></li>
-                            <li><a href="index2">Homepage 2</a></li>
-                            <li><a href="index3">Homepage 3</a></li>
-                        </ul>
+<!--                        <ul class="sub-menu">-->
+<!--                            <li><a href="index">Homepage 1</a></li>-->
+<!--                            <li><a href="index2">Homepage 2</a></li>-->
+<!--                            <li><a href="index3">Homepage 3</a></li>-->
+<!--                        </ul>-->
                     </li>
 
-                    <li>
+                    <li
+                        <?php if (basename($_SERVER["PHP_SELF"]) == "product") {
+                            echo 'class="active-menu"';
+                        } ?>
+                    >
                         <a href="product">Shop</a>
                     </li>
 
-                    <li class="label1" data-label1="hot">
+                    <li class="label1
+                        <?php if (basename($_SERVER["PHP_SELF"]) == "shoping_cart") {
+                        echo 'active-menu';
+                    } ?>" data-label1="hot">
                         <a href="shoping_cart">Features</a>
                     </li>
 
-                    <li>
+                    <li
+                        <?php if (basename($_SERVER["PHP_SELF"]) == "blog") {
+                            echo 'class="active-menu"';
+                        } ?>
+                    >
                         <a href="blog">Blog</a>
                     </li>
 
-                    <li>
+                    <li
+                        <?php if (basename($_SERVER["PHP_SELF"]) == "about") {
+                            echo 'class="active-menu"';
+                        } ?>
+                    >
                         <a href="about">About</a>
                     </li>
 
-                    <li>
+                    <li
+                        <?php if (basename($_SERVER["PHP_SELF"]) == "contact") {
+                            echo 'class="active-menu"';
+                        } ?>
+                    >
                         <a href="contact">Contact</a>
                     </li>
                 </ul>
@@ -75,11 +98,13 @@
                     <i class="zmdi zmdi-search"></i>
                 </div>
 
-                <div class="icon-header-item cl2 hov-cl1 trans-04 p-l-22 p-r-11 icon-header-noti js-show-cart" data-notify="2">
+                <div class="icon-header-item cl2 hov-cl1 trans-04 p-l-22 p-r-11 icon-header-noti js-show-cart"
+                     data-notify="2">
                     <i class="zmdi zmdi-shopping-cart"></i>
                 </div>
 
-                <a href="#" class="dis-block icon-header-item cl2 hov-cl1 trans-04 p-l-22 p-r-11 icon-header-noti" data-notify="0">
+                <a href="#" class="dis-block icon-header-item cl2 hov-cl1 trans-04 p-l-22 p-r-11 icon-header-noti"
+                   data-notify="0">
                     <i class="zmdi zmdi-favorite-outline"></i>
                 </a>
             </div>
@@ -104,7 +129,8 @@
             <i class="zmdi zmdi-shopping-cart"></i>
         </div>
 
-        <a href="#" class="dis-block icon-header-item cl2 hov-cl1 trans-04 p-r-11 p-l-10 icon-header-noti" data-notify="0">
+        <a href="#" class="dis-block icon-header-item cl2 hov-cl1 trans-04 p-r-11 p-l-10 icon-header-noti"
+           data-notify="0">
             <i class="zmdi zmdi-favorite-outline"></i>
         </a>
     </div>
@@ -151,14 +177,14 @@
     <ul class="main-menu-m">
         <li>
             <a href="index">Home</a>
-            <ul class="sub-menu-m">
-                <li><a href="index">Homepage 1</a></li>
-                <li><a href="index2">Homepage 2</a></li>
-                <li><a href="index3">Homepage 3</a></li>
-            </ul>
-            <span class="arrow-main-menu-m">
-						<i class="fa fa-angle-right" aria-hidden="true"></i>
-					</span>
+<!--            <ul class="sub-menu-m">-->
+<!--                <li><a href="index">Homepage 1</a></li>-->
+<!--                <li><a href="index2">Homepage 2</a></li>-->
+<!--                <li><a href="index3">Homepage 3</a></li>-->
+<!--            </ul>-->
+<!--            <span class="arrow-main-menu-m">-->
+<!--						<i class="fa fa-angle-right" aria-hidden="true"></i>-->
+<!--					</span>-->
         </li>
 
         <li>
