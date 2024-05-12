@@ -13,7 +13,7 @@
             var map_zoom = selector_map.attr('data-zoom');
 
             if (img_pin == null) {
-                img_pin = 'images/icons/location.png';
+                img_pin = '/assets/images/icons/location.png';
             }
             if (data_map_x == null || data_map_y == null) {
                 data_map_x = 40.007749;
@@ -220,7 +220,7 @@
             if (selector_map !== undefined) {
                 var map = new google.maps.Map(document.getElementById('google_map'), {
                     zoom: Number(map_zoom),
-                    zoomControl: false,  
+                    zoomControl: false,
                     disableDoubleClickZoom: true,
                     scrollwheel: scrollwhell,
                     navigationControl: true,

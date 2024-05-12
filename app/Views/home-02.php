@@ -222,55 +222,55 @@
 						<!-- item gallery sidebar -->
 						<div class="wrap-item-gallery m-b-10">
 							<a class="item-gallery bg-img1" href="images/gallery-01.jpg" data-lightbox="gallery"
-							style="background-image: url('images/gallery-01.jpg');"></a>
+							style="background-image: url('/assets/images/gallery-01.jpg');"></a>
 						</div>
 
 						<!-- item gallery sidebar -->
 						<div class="wrap-item-gallery m-b-10">
 							<a class="item-gallery bg-img1" href="images/gallery-02.jpg" data-lightbox="gallery"
-							style="background-image: url('images/gallery-02.jpg');"></a>
+							style="background-image: url('/assets/images/gallery-02.jpg');"></a>
 						</div>
 
 						<!-- item gallery sidebar -->
 						<div class="wrap-item-gallery m-b-10">
 							<a class="item-gallery bg-img1" href="images/gallery-03.jpg" data-lightbox="gallery"
-							style="background-image: url('images/gallery-03.jpg');"></a>
+							style="background-image: url('/assets/images/gallery-03.jpg');"></a>
 						</div>
 
 						<!-- item gallery sidebar -->
 						<div class="wrap-item-gallery m-b-10">
 							<a class="item-gallery bg-img1" href="images/gallery-04.jpg" data-lightbox="gallery"
-							style="background-image: url('images/gallery-04.jpg');"></a>
+							style="background-image: url('/assets/images/gallery-04.jpg');"></a>
 						</div>
 
 						<!-- item gallery sidebar -->
 						<div class="wrap-item-gallery m-b-10">
 							<a class="item-gallery bg-img1" href="images/gallery-05.jpg" data-lightbox="gallery"
-							style="background-image: url('images/gallery-05.jpg');"></a>
+							style="background-image: url('/assets/images/gallery-05.jpg');"></a>
 						</div>
 
 						<!-- item gallery sidebar -->
 						<div class="wrap-item-gallery m-b-10">
 							<a class="item-gallery bg-img1" href="images/gallery-06.jpg" data-lightbox="gallery"
-							style="background-image: url('images/gallery-06.jpg');"></a>
+							style="background-image: url('/assets/images/gallery-06.jpg');"></a>
 						</div>
 
 						<!-- item gallery sidebar -->
 						<div class="wrap-item-gallery m-b-10">
 							<a class="item-gallery bg-img1" href="images/gallery-07.jpg" data-lightbox="gallery"
-							style="background-image: url('images/gallery-07.jpg');"></a>
+							style="background-image: url('/assets/images/gallery-07.jpg');"></a>
 						</div>
 
 						<!-- item gallery sidebar -->
 						<div class="wrap-item-gallery m-b-10">
 							<a class="item-gallery bg-img1" href="images/gallery-08.jpg" data-lightbox="gallery"
-							style="background-image: url('images/gallery-08.jpg');"></a>
+							style="background-image: url('/assets/images/gallery-08.jpg');"></a>
 						</div>
 
 						<!-- item gallery sidebar -->
 						<div class="wrap-item-gallery m-b-10">
 							<a class="item-gallery bg-img1" href="images/gallery-09.jpg" data-lightbox="gallery"
-							style="background-image: url('images/gallery-09.jpg');"></a>
+							style="background-image: url('/assets/images/gallery-09.jpg');"></a>
 						</div>
 					</div>
 				</div>
@@ -380,7 +380,7 @@
 	<section class="section-slide">
 		<div class="wrap-slick1 rs1-slick1">
 			<div class="slick1">
-				<div class="item-slick1" style="background-image: url(images/slide-03.jpg);">
+				<div class="item-slick1" style="background-image: url(/assets/images/slide-03.jpg);">
 					<div class="container h-full">
 						<div class="flex-col-l-m h-full p-t-100 p-b-30">
 							<div class="layer-slick1 animated visible-false" data-appear="fadeInDown" data-delay="0">
@@ -404,7 +404,7 @@
 					</div>
 				</div>
 
-				<div class="item-slick1" style="background-image: url(images/slide-02.jpg);">
+				<div class="item-slick1" style="background-image: url(/assets/images/slide-02.jpg);">
 					<div class="container h-full">
 						<div class="flex-col-l-m h-full p-t-100 p-b-30">
 							<div class="layer-slick1 animated visible-false" data-appear="rollIn" data-delay="0">
@@ -428,7 +428,7 @@
 					</div>
 				</div>
 
-				<div class="item-slick1" style="background-image: url(images/slide-04.jpg);">
+				<div class="item-slick1" style="background-image: url(/assets/images/slide-04.jpg);">
 					<div class="container h-full">
 						<div class="flex-col-l-m h-full p-t-100 p-b-30">
 							<div class="layer-slick1 animated visible-false" data-appear="rotateInDownLeft" data-delay="0">
@@ -1979,7 +1979,7 @@ Copyright &copy;<script>document.write(new Date().getFullYear());</script> All r
 								<div class="wrap-slick3-arrows flex-sb-m flex-w"></div>
 
 								<div class="slick3 gallery-lb">
-									<div class="item-slick3" data-thumb="images/product-detail-01.jpg">
+									<div class="item-slick3" data-thumb="/assets/images/product-detail-01.jpg">
 										<div class="wrap-pic-w pos-relative">
 											<img src="/assets/images/product-detail-01.jpg" alt="IMG-PRODUCT">
 
@@ -1989,7 +1989,7 @@ Copyright &copy;<script>document.write(new Date().getFullYear());</script> All r
 										</div>
 									</div>
 
-									<div class="item-slick3" data-thumb="images/product-detail-02.jpg">
+									<div class="item-slick3" data-thumb="/assets/images/product-detail-02.jpg">
 										<div class="wrap-pic-w pos-relative">
 											<img src="/assets/images/product-detail-02.jpg" alt="IMG-PRODUCT">
 
@@ -1999,7 +1999,7 @@ Copyright &copy;<script>document.write(new Date().getFullYear());</script> All r
 										</div>
 									</div>
 
-									<div class="item-slick3" data-thumb="images/product-detail-03.jpg">
+									<div class="item-slick3" data-thumb="/assets/images/product-detail-03.jpg">
 										<div class="wrap-pic-w pos-relative">
 											<img src="/assets/images/product-detail-03.jpg" alt="IMG-PRODUCT">
 
