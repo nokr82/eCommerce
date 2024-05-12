@@ -4,7 +4,7 @@
 	<title>About</title>
 	<meta charset="UTF-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
- <?php include_once "head.php";?>
+ <?php include_once "layout/head.php";?>
 </head>
 <body class="animsition">
 
@@ -51,9 +51,9 @@
 					<div class="menu-desktop">
 						<ul class="main-menu">
 							<li>
-								<a href="index.php">Home</a>
+								<a href="index">Home</a>
 								<ul class="sub-menu">
-									<li><a href="index.php">Homepage 1</a></li>
+									<li><a href="index">Homepage 1</a></li>
 									<li><a href="index2">Homepage 2</a></li>
 									<li><a href="index3">Homepage 3</a></li>
 								</ul>
@@ -103,7 +103,7 @@
 		<div class="wrap-header-mobile">
 			<!-- Logo moblie -->
 			<div class="logo-mobile">
-				<a href="index.php"><img src="/assets/images/icons/logo-01.png" alt="IMG-LOGO"></a>
+				<a href="index"><img src="/assets/images/icons/logo-01.png" alt="IMG-LOGO"></a>
 			</div>
 
 			<!-- Icon header -->
@@ -162,9 +162,9 @@
 
 			<ul class="main-menu-m">
 				<li>
-					<a href="index.php">Home</a>
+					<a href="index">Home</a>
 					<ul class="sub-menu-m">
-						<li><a href="index.php">Homepage 1</a></li>
+						<li><a href="index">Homepage 1</a></li>
 						<li><a href="index2">Homepage 2</a></li>
 						<li><a href="index3">Homepage 3</a></li>
 					</ul>
