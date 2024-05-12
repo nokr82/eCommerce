@@ -20,4 +20,34 @@ class Home extends BaseController
     {
         return view('product');
     }
+
+    public function product_detail()
+    {
+        return view('product-detail');
+    }
+
+    public function shoping_cart()
+    {
+        return view('shoping-cart');
+    }
+
+    public function about()
+    {
+        return view('about');
+    }
+
+    public function blog()
+    {
+        return view('blog');
+    }
+
+    public function blog_detail()
+    {
+        return view('blog-detail');
+    }
+
+    public function contact()
+    {
+        return view('contact');
+    }
 }
