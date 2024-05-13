@@ -50,4 +50,14 @@ class Home extends BaseController
     {
         return view('contact');
     }
+
+    public function login()
+    {
+        return view('login');
+    }
+
+    public function join()
+    {
+        return view('join');
+    }
 }
