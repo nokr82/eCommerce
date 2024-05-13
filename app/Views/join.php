@@ -42,16 +42,16 @@
                 </div>
 
                 <div class="mb-3">
-                    <label for="user_nm" class="form-label">주소</label>
+                    <label for="addr" class="form-label">주소</label>
                     <input type="text" class="form-control" id="addr" placeholder="주소">
                 </div>
                 <div class="mb-3">
-                    <label for="user_nm" class="form-label">핸드폰번호</label>
+                    <label for="phone_num" class="form-label">핸드폰번호</label>
                     <input type="text" class="form-control" id="phone_num" placeholder="핸드폰번호">
                 </div>
 
                 <div class="text-center">
-                    <button class=" btn btn-lg btn-dark m-4" id="join_btn" type="submit">가입하기</button>
+                    <button class=" btn btn-lg btn-dark m-4" id="join_btn">가입하기</button>
                 </div>
 
             </div>
@@ -169,29 +169,39 @@
 
 <script>
     $('#join_btn').click(function () {
+
+        var login_id = $('#login_id').val();
+        var pw = $('#pw').val();
+        var pw2 = $('#pw2').val();
+        var addr = $('#addr').val();
+        var phone_num = $('#phone_num').val();
+        var user_nm = $('#user_nm').val();
+
+        // if (pw !== pw2){
+        //     alert('비밀번호가 틀립니다.');
+        //     return;
+        // }
+
         $.ajax({
             type: 'post',
-            url: '../ajax/add_card.php',
-            data: {'board_type': board_type},
+            url: 'ajax_join',
+            data: {
+                'login_id': login_id,
+                'pw': pw,
+                'phone_num': phone_num,
+                'addr': addr,
+                'user_nm': user_nm
+            },
             dataType: 'json',
             error: function (xhr, status, error) {
                 alert(error + xhr + status);
             },
             success: function (data) {
                 console.log(data);
-                if (data.success == 'ok') {
-
-                }
             },
         });
 
-        window.ReactionButtonType = 'reaction';
-        window.ReactionApiUrl = '//devfuryhong.tistory.com/reaction';
-        window.ReactionReqBody = {
-            entryId: 4
-        }
-
-    }
+    });
 
 </script>
 
