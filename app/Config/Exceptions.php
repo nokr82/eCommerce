@@ -22,7 +22,7 @@ class Exceptions extends BaseConfig
      *
      * Default: true
      */
-    public bool $log = true;
+    public  $log = true;
 
     /**
      * --------------------------------------------------------------------------
@@ -33,7 +33,7 @@ class Exceptions extends BaseConfig
      *
      * @var list<int>
      */
-    public array $ignoreCodes = [404];
+    public  $ignoreCodes = [404];
 
     /**
      * --------------------------------------------------------------------------
@@ -44,7 +44,7 @@ class Exceptions extends BaseConfig
      *
      * Default: APPPATH.'Views/errors'
      */
-    public string $errorViewPath = APPPATH . 'Views/errors';
+    public  $errorViewPath = APPPATH . 'Views/errors';
 
     /**
      * --------------------------------------------------------------------------
@@ -56,7 +56,7 @@ class Exceptions extends BaseConfig
      *
      * @var list<string>
      */
-    public array $sensitiveDataInTrace = [];
+    public  $sensitiveDataInTrace = [];
 
     /**
      * --------------------------------------------------------------------------
@@ -65,7 +65,7 @@ class Exceptions extends BaseConfig
      * If set to `true`, DEPRECATED errors are only logged and no exceptions are
      * thrown. This option also works for user deprecations.
      */
-    public bool $logDeprecations = true;
+    public  $logDeprecations = true;
 
     /**
      * --------------------------------------------------------------------------
@@ -78,7 +78,7 @@ class Exceptions extends BaseConfig
      * The related `Config\Logger::$threshold` should be adjusted, if needed,
      * to capture logging the deprecations.
      */
-    public string $deprecationLogLevel = LogLevel::WARNING;
+    public  $deprecationLogLevel = LogLevel::WARNING;
 
     /*
      * DEFINE THE HANDLERS USED

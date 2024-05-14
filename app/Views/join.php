@@ -177,10 +177,10 @@
         var phone_num = $('#phone_num').val();
         var user_nm = $('#user_nm').val();
 
-        // if (pw !== pw2){
-        //     alert('비밀번호가 틀립니다.');
-        //     return;
-        // }
+        if (pw !== pw2){
+            alert('비밀번호가 틀립니다.');
+            return;
+        }
 
         $.ajax({
             type: 'post',

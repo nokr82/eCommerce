@@ -83,9 +83,23 @@ class Home extends BaseController
             $user_nm = $request->getPost('user_nm');
             $addr = $request->getPost('addr');
 
-            $query = $db->query("SELECT * FROM shop.user_tbl;");
-            $result = $query->result_array()[0];
+//            $query = $db->query("SELECT * FROM shop.user_tbl;");
+//            $result = $query->getResultArray()[0];
 
+            $data = [
+                'login_id' => $login_id,
+                'pw' => $pw,
+                'phone_num' => $phone_num,
+                'user_nm' => $user_nm,
+                'addr' => $addr,
+            ];
+
+
+            if ($db->table('user_tbl')->insert($data)) {
+                $result = 1;
+            } else {
+                $result = 0;
+            }
             return json_encode($result);
         }
 
