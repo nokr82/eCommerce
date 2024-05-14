@@ -12,9 +12,7 @@
                     Help & FAQs
                 </a>
 
-                <a href="login" class="flex-c-m trans-04 p-lr-25">
-                   로그인
-                </a>
+
             </div>
         </div>
     </div>
@@ -99,6 +97,10 @@
                    data-notify="0">
                     <i class="zmdi zmdi-favorite-outline"></i>
                 </a>
+
+                <button onclick="location.href='login'" class="m-4">
+                    로그인
+                </button>
             </div>
         </nav>
     </div>
