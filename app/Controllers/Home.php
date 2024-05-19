@@ -3,11 +3,13 @@
 namespace App\Controllers;
 
 use App\Models\UserModel;
+use function Psr\Log\alert;
 
 class Home extends BaseController
 {
     public function index()
     {
+
         return view('index');
     }
 
@@ -66,6 +68,15 @@ class Home extends BaseController
         return view('join');
     }
 
+    public function logout()
+    {
+        session()->remove('user_id');
+        echo '
+<script>alert("로그아웃 되었습니다.")
+window.location.href = "/public/home/index";
+</script>';
+        exit;
+    }
 
     //주소값 리턴 동우
     public function ajax_join()
@@ -104,5 +115,33 @@ class Home extends BaseController
         }
 
     }
+
+
+    public function login_logic()
+    {
+        // 로그인 폼 데이터 받아오기
+        $login_id = $this->request->getPost('login_id');
+        $pw = $this->request->getPost('pw');
+
+        // UserModel 로드
+        $userModel = new \App\Models\UserModel();
+
+        // 사용자 정보 가져오기
+        $user = $userModel->login($login_id);
+
+        // 사용자가 존재하고 비밀번호가 일치하는지 확인
+        if ($user && $pw == $user['pw']) {
+            session()->set('user_id', $user['id']);
+            echo '<script>window.location.href = "/public/home/index";</script>';
+            exit;
+        } else {
+            echo '
+<script>alert("아이디또는 비밀번호가 틀립니다.")
+window.location.href = "/public/home/login";
+</script>';
+            exit;
+        }
+    }
+
 
 }

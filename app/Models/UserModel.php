@@ -16,4 +16,12 @@ class UserModel extends Model
     protected $allowedFields = ['login_id','pw','user_nm','addr','phone_num'];
 
 
+    public function login($login_id)
+    {
+        return $this->where('login_id', $login_id)
+            ->first(); // 첫 번째 결과 반환
+    }
+
+
+
 }

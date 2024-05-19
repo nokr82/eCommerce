@@ -23,3 +23,5 @@ $routes->get('/home/contact', 'Home::contact');
 $routes->get('/home/login', 'Home::login');
 $routes->get('/home/join', 'Home::join');
 $routes->post('/home/ajax_join', 'Home::ajax_join');
+$routes->post('/home/login_logic', 'Home::login_logic');
+$routes->get('/home/logout', 'Home::logout');

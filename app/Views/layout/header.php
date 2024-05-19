@@ -34,11 +34,11 @@
                         } ?>
                     >
                         <a href="index">Home</a>
-<!--                        <ul class="sub-menu">-->
-<!--                            <li><a href="index">Homepage 1</a></li>-->
-<!--                            <li><a href="index2">Homepage 2</a></li>-->
-<!--                            <li><a href="index3">Homepage 3</a></li>-->
-<!--                        </ul>-->
+                        <!--                        <ul class="sub-menu">-->
+                        <!--                            <li><a href="index">Homepage 1</a></li>-->
+                        <!--                            <li><a href="index2">Homepage 2</a></li>-->
+                        <!--                            <li><a href="index3">Homepage 3</a></li>-->
+                        <!--                        </ul>-->
                     </li>
 
                     <li
@@ -88,19 +88,35 @@
                     <i class="zmdi zmdi-search"></i>
                 </div>
 
-                <div class="icon-header-item cl2 hov-cl1 trans-04 p-l-22 p-r-11 icon-header-noti js-show-cart"
+                <?php
+                $userId = session('user_id');
+                if ($userId) {
+                    echo '<div class="icon-header-item cl2 hov-cl1 trans-04 p-l-22 p-r-11 icon-header-noti js-show-cart"
                      data-notify="2">
                     <i class="zmdi zmdi-shopping-cart"></i>
-                </div>
+                </div>';
 
-                <a href="#" class="dis-block icon-header-item cl2 hov-cl1 trans-04 p-l-22 p-r-11 icon-header-noti"
+                    echo '<a href="#" class="dis-block icon-header-item cl2 hov-cl1 trans-04 p-l-22 p-r-11 icon-header-noti"
                    data-notify="0">
                     <i class="zmdi zmdi-favorite-outline"></i>
-                </a>
+                </a>';
+                } ?>
 
-                <button onclick="location.href='login'" class="m-4">
+
+
+
+                <?php
+                $userId = session('user_id');
+                if ($userId) {
+                    echo '<button onclick="location.href=\'logout\'" class="m-4">
+                    로그아웃
+                </button>';
+                } else {
+                    echo '<button onclick="location.href=\'login\'" class="m-4">
                     로그인
-                </button>
+                </button>';
+                }
+                ?>
             </div>
         </nav>
     </div>
@@ -119,14 +135,17 @@
             <i class="zmdi zmdi-search"></i>
         </div>
 
-        <div class="icon-header-item cl2 hov-cl1 trans-04 p-r-11 p-l-10 icon-header-noti js-show-cart" data-notify="2">
+        <?php
+        $userId = session('user_id');
+        if ($userId) {
+            echo '<div class="icon-header-item cl2 hov-cl1 trans-04 p-r-11 p-l-10 icon-header-noti js-show-cart" data-notify="2">
             <i class="zmdi zmdi-shopping-cart"></i>
-        </div>
-
-        <a href="#" class="dis-block icon-header-item cl2 hov-cl1 trans-04 p-r-11 p-l-10 icon-header-noti"
+        </div>';
+            echo ' <a href="#" class="dis-block icon-header-item cl2 hov-cl1 trans-04 p-r-11 p-l-10 icon-header-noti"
            data-notify="0">
             <i class="zmdi zmdi-favorite-outline"></i>
-        </a>
+        </a>';
+        } ?>
     </div>
 
     <!-- Button show menu -->
@@ -171,14 +190,14 @@
     <ul class="main-menu-m">
         <li>
             <a href="index">Home</a>
-<!--            <ul class="sub-menu-m">-->
-<!--                <li><a href="index">Homepage 1</a></li>-->
-<!--                <li><a href="index2">Homepage 2</a></li>-->
-<!--                <li><a href="index3">Homepage 3</a></li>-->
-<!--            </ul>-->
-<!--            <span class="arrow-main-menu-m">-->
-<!--						<i class="fa fa-angle-right" aria-hidden="true"></i>-->
-<!--					</span>-->
+            <!--            <ul class="sub-menu-m">-->
+            <!--                <li><a href="index">Homepage 1</a></li>-->
+            <!--                <li><a href="index2">Homepage 2</a></li>-->
+            <!--                <li><a href="index3">Homepage 3</a></li>-->
+            <!--            </ul>-->
+            <!--            <span class="arrow-main-menu-m">-->
+            <!--						<i class="fa fa-angle-right" aria-hidden="true"></i>-->
+            <!--					</span>-->
         </li>
 
         <li>

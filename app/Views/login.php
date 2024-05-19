@@ -20,15 +20,15 @@
 <section class="bg0 p-t-104 p-b-116">
     <div class="container">
         <main class="form-signin">
-            <div>
+            <form action="login_logic" method="post">
 
                 <div class="mb-3">
                     <label for="formGroupExampleInput" class="form-label">아이디</label>
-                    <input type="text" class="form-control" id="formGroupExampleInput" placeholder="아이디">
+                    <input type="text" name="login_id" class="form-control" id="formGroupExampleInput" placeholder="아이디">
                 </div>
                 <div class="mb-3">
                     <label for="formGroupExampleInput2" class="form-label">비밀번호</label>
-                    <input type="password" class="form-control" id="formGroupExampleInput2" placeholder="비밀번호">
+                    <input type="password" name="pw" class="form-control" id="formGroupExampleInput2" placeholder="비밀번호">
                 </div>
 
                 <div class="form-check m-4 ">
@@ -39,10 +39,10 @@
                 </div>
                 <div class="text-center">
                     <button class=" btn btn-lg btn-light m-4 border" type="submit">로그인</button>
-                    <button class=" btn btn-lg btn-dark m-4" onclick="location.href='join'">회원가입</button>
+                    <button class=" btn btn-lg btn-dark m-4" type="button" onclick="location.href='join'">회원가입</button>
                 </div>
 
-            </div>
+            </form>
         </main>
     </div>
 </section>
